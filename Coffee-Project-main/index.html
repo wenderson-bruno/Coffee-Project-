@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navegação -->
+    <section class="navSection">
+        <div class="iconNav">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+        <nav class="navMenu">
+            <div class="opções">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+            </div>
+        </nav> 
+
+         <div class="icons-seach">
+            <div class="cart-icon">
+                <img class="cart_add" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
+                    alt="shopping-cart--v1" />
+                    <span class="cart-count">0</span>
+            </div>
+            <img width="30" height="30" src="https://img.icons8.com/ios/50/ffffff/search--v1.png" alt="search--v1" />
+            <img class="user" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/person-male.png"
+                alt="person-male" />
+        </div>
+
+    </section>
+    <!-- login -->
+    <section class="login hidden">
+
+        <div class="container-user">
+            <p class="close">X</p>
+            <div class="login-user">
+                <h3 style="color: white;">Login user</h3>
+                <input type="text" id="input-name" placeholder="Enter your name" required>
+                <input type="email" id="input-email" placeholder=" your Email" required>
+                <button class="btn-confirm">Confirm</button>
+            </div>
+        </div> 
+    </section>
+
+    <!-- menu -->
+     <section class="menu" id="home">
+        <div class="content">
+            <div class="img-banner"></div>
+            <div class="title">
+                <h3>best <span>coffee</span> in the region</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias recusandae adipisci necessitatibus
+                    laborum sed enim ad molestiae officiis architecto magni! Vero officia veniam esse doloremque </p>
+            </div>
+        </div>
+    </section> 
+
+
+    <!-- section de sobre nós -->
+
+   <section class="section-about" id="about">
+        <h3 class="title-about">about <span>us</span></h3>
+        <div class="container-about">
+            <div class="container-image">
+                <img src="images/about-img.jpg" alt="about">
+            </div>
+            <div class="content-p">
+                <h3>What makes our <span>coffee</span> special !</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae perferendis <br> nesciunt odit
+                    provident iste delectus illum neque itaque, id officia autem corrupti <br> sunt suscipit atque quia
+                    cumque accusantium aliquid eligendi?</p>
+
+                <a href="#" class="btn">find out more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- cardápio -->
+
+     <section class="section-cardapio without" id="menu">
+        <h2 class="title">our <span>menu</span></h2>
+        <div class="box-cardapio">
+            <div class="img-cardapio">
+                <img src="images/menu-1.png" alt="menu">
+                <h3>brewed <span>coffee</span></h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+                <button class="btn">Add to cart</button>
+            </div>
+            <div class="img-cardapio">
+                <img src="images/menu-2.png" alt="menu">
+                <h3>brewed coffee</h3>
+                <div class="price">$19.99 <span>$20.99</span></div>
+                <button class="btn">Add to cart</button>
+            </div>
+            <div class="img-cardapio">
+                <img src="images/menu-3.png" alt="menu">
+                <h3>brewed coffee</h3>
+                <div class="price">$12.99 <span>$20.99</span></div>
+                <button class="btn">Add to cart</button>
+            </div>
+            <div class="img-cardapio">
+                <img src="images/menu-4.png" alt="menu">
+                <h3>brewed coffee</h3>
+                <div class="price">$10.99 <span>$20.99</span></div>
+                <button class="btn">Add to cart</button>
+            </div>
+            <div class="img-cardapio">
+                <img src="images/menu-5.png" alt="menu">
+                <h3>brewed coffee</h3>
+                <div class="price">$13.75 <span>$20.99</span></div>
+                <button class="btn">Add to cart</button>
+            </div>
+            <div class="img-cardapio">
+                <img src="images/menu-6.png" alt="menu">
+                <h3>brewed coffee</h3>
+                <div class="price">$7.99 <span>$20.99</span></div>
+                <button class="btn">Add to cart</button>
+            </div>
+        </div> 
+
+        <section class="cart hidden">
+            <div class="container-cart">
+                <p class="close-cart">X</p>
+                <h3 style="text-align: center;">your list</h3>
+                <div class="cart-items"></div>
+                <div class="item_cart"></div>
+                <div class="price_item"></div>
+                <button class="btn-remove">remove</button>
+            </div>
+        </section>
+
+    </section>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
