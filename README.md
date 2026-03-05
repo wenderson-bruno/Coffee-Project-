@@ -12,10 +12,10 @@ javascript
 # preview
 
 parte inicial  
-![preview](./images/coffee.png)
+![preview](./Coffee-Project-main/images/coffee.png)
 
 sobre  
-![preview](./images/about-print.png)
+![preview](./Coffee-Project-main/images/about-print.png)
 
 produtos  
-![preview](./images/produtos.png)
+![preview](./Coffee-Project-main/images/produtos.png)
