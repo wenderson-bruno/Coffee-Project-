@@ -1,7 +1,9 @@
 # Coffee-Project
+projeto que fiz para estudar funcionalidades do javascript
 
-esse mini site foi feito usando: html, css e JavaScript <br>
-por enquanto ele terá funções basicas para que futuramente eu possa dar um upgrade nele.
+## o que ele faz?
+- adiciona o produto ao carrinho
+- faz login com LocalStorage
 
 ## ferramentas usadas
 
